@@ -1,12 +1,8 @@
-
-
 body {
 	font-size: 100%;
 	font-family: IRANSans, 'Open Sans', sans-serif;
 	background-color: #000:
 }
-
-
 /****** navbar  **/
 
 .navbar-default {
@@ -357,7 +353,14 @@ body {
 	height: 100px;
 	background-color: #fff;
 	margin: 35px 0 0 0;
+	padding:20px 0 20px 0;
+
 }
+
+
+
+
+
 
 .list-traveler  a{
 	display: inline;
@@ -372,29 +375,58 @@ body {
 }
 
  #total-menu, .list-traveler {
-	height:50px;
+	height:90px;
 	padding: 5px;
 	text-align: center;
 	background-color: #f5f5f5;
-	border: solid 1px #c3c3c3;
+}
+
+.total-menu{
+	padding:20px 0 0 0;
+}
+
+.title-menu{
+	padding:25px 0 0 0;
 }
 
 .list-bottom a{
 	display: block;
-	padding: 0 0 3px 78px;
 	font-size: 15px;
 	font-weight: 600;
 	color: #646464;
 }
 
-.list-bottom a:hover{
-	text-decoration:none;
-}
-
 #total-menu {
-	height:400px;
+	height:500px;
     padding: 50px;
 }
+
+.list-bottom ul {
+	padding: 0 14px 0 0;
+}
+
+.list-bottom ul li {
+	color: orange;
+	padding: 0 0 5px 0;
+}
+
+.list-bottom ul li a {
+	color: #646464;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.list-bottom ul li a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 #boxs {
 	width: 100%;
@@ -736,4 +768,18 @@ body {
 
 #font-google:hover{
 	background-color:#e22207;
+}
+
+
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+	animation-name: jssorl-009-spin;
+	animation-duration: 1.6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
 }
