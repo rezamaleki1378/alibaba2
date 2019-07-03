@@ -12,31 +12,43 @@
       <div class="section">
          <img class="img-section"src="../Images/9e4a88c.jpg"alt="">
          <div  class="boxS">
-            <div class="row" style="margin:0;">
-               <div class="box1 col-lg-1 col-md-1 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
-               <div class="box1 col-lg-1 col-md-1 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
-               <div class="box1 col-lg-1 col-md-1 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
-               <div class="box1 col-lg-1 col-md-1 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
-               <div class="box1 col-lg-1 col-md-1 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
-               <div class="box1 col-lg-1 col-md-2 col-sm-6 col-xs-12">
-                  <div class="daier1">
-                  </div>
-               </div>
+            <div class="row" style="margin:0;padding:0;">
+				<div class="container"style="padding:0;">
+					<div id="icons-Traveler">
+						<ul>
+							<li style="background-clor:red;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fa fa-plane"id="icon-airplane"></i>
+								</div>
+							</li>
+							<li style="background-colr:blue;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fa fa-plane"id="icon-land"></i>
+								</div>
+							</li>
+							<li style="background-clor:red;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fa fa-subway"id="icon-train"></i>
+								</div>
+							</li>
+							<li style="background-olor:blue;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fas fa-bus-alt"id="icon-bus"></i>
+								</div>
+							</li>
+							<li style="background-colr:red;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fas fa-suitcase-rolling"id="icon-bag"></i>
+								</div>
+							</li>
+							<li style="background-coor:blue;"class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<div class="Place-icons">
+									<i class="fas fa-home"id="icon-home"></i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
             </div>
          </div>
          <div class="search-form">
@@ -152,52 +164,129 @@
             </div>
          </div>
       </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	   
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
       <div class="logos">
 
 
+		   <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="../js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
 
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 15000,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 100,
+              $Align: 0
+            };
 
-          <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
-              <!-- Loading Screen -->
-              <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
 
-              </div>
-              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
-                  <div>
-                      <img data-u="image" src="../Images/001.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/002.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/003.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/004.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/009.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/010.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/019.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/020.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/021.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/022.jpg" />
-                  </div>
-                  <div>
-                      <img data-u="image" src="../Images/024.jpg" />
-                  </div>
-              </div>
-          </div>
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        });
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="../Images/001.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/002.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/003.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/004.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/009.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/010.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/019.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/020.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/021.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/022.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../Images/024.jpg" />
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Jssor Slider End -->
 
 
 
@@ -226,7 +315,7 @@
                   </div>
                </div>
             <div id="total-menu">
-               <div class="list-bottom col-lg-3">
+               <div class="list-bottom col-lg-3"style="padding:0 73px 0 0;">
                   <ul>
                      <li><a href="">قیمت بلیط هواپیما</a>
                      <li><a href="">بلیط ارزان هواپیما</a>
@@ -238,7 +327,7 @@
                      <li><a href="">تور هنگ کنگ</a>
                   </ul>
                </div>
-               <div class="list-bottom col-lg-3 ">
+               <div class="list-bottom col-lg-3"style="padding:0 115px 0 0;">
                   <ul>
                      <li><a href="">تور روسیه</a></li>
                      <li><a href="">تور مسکو</a></li>
@@ -252,7 +341,7 @@
                      <li><a href="">تور کرواسی</a></li>
                   </ul>
                </div>
-               <div class="list-bottom col-lg-3 ">
+               <div class="list-bottom col-lg-3"style="padding:0 124px 0 0;">
                   <ul>
                      <li><a href="">ایران ایر</a></li>
                      <li><a href="">هواپیمایی ماهان</a></li>
@@ -267,7 +356,7 @@
                      <li><a href="">ایرفرانس</a></li>
                   </ul>
                </div>
-               <div class="list-bottom col-lg-3 ">
+               <div class="list-bottom col-lg-3"style="padding:0 132px 0 0;">
                   <ul>
                      <li><a href="">پرواز تهران مشهد</a></li>
                      <li><a href="">پرواز مشهد تهران</a></li>
@@ -495,8 +584,6 @@
       <script src="../js/script.js"></script>
       <script src="https://kit.fontawesome.com/ea00b7b856.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="../js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
-      <script type="text/javascript">jssor_1_slider_init();</script>
     <script>
         $(document).ready(function(){
             $(".list-traveler").click(function(){
@@ -504,48 +591,7 @@
             });
         });
     </script>
-      <script type="text/javascript">
-          jssor_1_slider_init = function() {
-
-              var jssor_1_options = {
-                  $AutoPlay: 1,
-                  $Idle: 0,
-                  $SlideDuration: 5000,
-                  $SlideEasing: $Jease$.$Linear,
-                  $PauseOnHover: 4,
-                  $SlideWidth: 140,
-                  $Align: 0
-              };
-
-              var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-              /*#region responsive code begin*/
-
-              var MAX_WIDTH = 980;
-
-              function ScaleSlider() {
-                  var containerElement = jssor_1_slider.$Elmt.parentNode;
-                  var containerWidth = containerElement.clientWidth;
-
-                  if (containerWidth) {
-
-                      var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                      jssor_1_slider.$ScaleWidth(expectedWidth);
-                  }
-                  else {
-                      window.setTimeout(ScaleSlider, 30);
-                  }
-              }
-
-              ScaleSlider();
-
-              $Jssor$.$AddEvent(window, "load", ScaleSlider);
-              $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-              $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-              /*#endregion responsive code end*/
-          };
-      </script>
+      
 
 
 
